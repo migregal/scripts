@@ -20,7 +20,7 @@ sudo pacman -S nodejs yarn
 
 # python
 
-pacman -Si pyenv
+pacman -S pyenv
 
 python3 -m pip install virtualenv
 
@@ -38,13 +38,23 @@ systemctl start docker
 
 sudo pacman -S snapd
 
+# tools
+
 sudo snap install code-insiders --classic
 
 sudo snap install beekeeper-studio
 
 sudo snap install postman
+ 
+# kotlin installation
+
+sudo pacman -S jdk-openjdk
 
 sudo snap install kotlin --classic
+
+sudo snap install gradle --classic
+
+# snaped tools
 
 sudo snap install kubectl --classic
 
@@ -57,3 +67,5 @@ sudo snap install cmake --classic
 sudo snap install htop
 
 sudo snap install wormhole
+
+reboot
