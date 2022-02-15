@@ -34,9 +34,11 @@ sudo chmod 666 /var/run/docker.sock
 
 systemctl start docker
 
-# snap packages installation
+# snap installation
 
 sudo pacman -S snapd
+
+sudo systemctl enable --now snapd.socket
 
 # tools
 
