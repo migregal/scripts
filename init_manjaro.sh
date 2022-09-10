@@ -8,6 +8,8 @@ git config --global user.name "your_user_name"
 
 git config --global user.email "your_user_name@domain_name.com"
 
+git config --global alias.find '!git log --color -p -S '
+
 # sudo pacman -S zsh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
